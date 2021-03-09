@@ -1,0 +1,32 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "no test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MistyBui/fullstack-2020-server.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "misty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MistyBui/fullstack-2020-server/issues"
+  },
+  "homepage": "https://github.com/MistyBui/fullstack-2020-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
